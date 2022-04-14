@@ -50,7 +50,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a Bachelor Engineer, Data Scientits",
+      "I'm a Bachelor Engineer, Data Data Scientist",
     description: [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio nibh, bibendum ac mi quis, blandit euismod magna. Aenean quis hendrerit leo, in pharetra leo. Donec vel metus auctor, ullamcorper tortor id, fringilla nunc. Praesent laoreet enim et varius consequat. Nulla eu condimentum dolor. Donec posuere libero in tellus placerat cursus. Pellentesque finibus fringilla dignissim.',
       'Vivamus interdum pharetra sapien, quis porta ante accumsan vel. Quisque semper auctor ipsum et euismod. Quisque gravida sed tellus eu ornare. Curabitur vitae pulvinar quam. Integer fermentum odio eu mollis suscipit. In tincidunt non lorem vel mollis. Sed commodo, libero id porta tempus, lorem lacus sodales massa, at dignissim nisl massa nec neque.',
