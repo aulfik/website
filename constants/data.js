@@ -1,7 +1,7 @@
 const userData = {
   githubUsername: "aulfik",
   name: "Aulia Fikri",
-  designation: "Junior Data Scientist",
+  designation: "Data Scientist Enthusiast",
   avatarUrl: "/avatar.png",
   email: "auautori@gmail.com",
   phone: "+628 2273531827",
