@@ -7,13 +7,13 @@ This website was built using [Next.js](https://nextjs.org/) project bootstrapped
 First, clone this project, install the dependencies and run the development server:
 
 ```bash
-git clone https://github.com/hisamafahri/website
+git clone https://github.com/aulfik/website
 npm install
 npm run dev
 
 # or
 
-git clone https://github.com/hisamafahri/website
+git clone https://github.com/aulfik/website
 yarn install
 yarn dev
 ```
