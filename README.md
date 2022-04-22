@@ -1,6 +1,6 @@
 My Personal Website
 
-This website was built using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). The overall design was heavily inspired by [Dark Theme](https://probberechts.github.io/hexo-theme-cactus/cactus-dark/public/) of [Hexo Theme Cactus](https://github.com/probberechts/hexo-theme-cactus)
+This website was built using [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
