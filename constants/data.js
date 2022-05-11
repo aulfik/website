@@ -39,15 +39,8 @@ const userData = {
     },
     {
       title: "Bachelor Degree",
-      company: "UNiversity of Lampung",
+      company: "University of Lampung",
       year: "2018",
-      companyLink: "https://github.com/aulfik/#",
-      desc: "",
-    },
-    {
-      title: "Hig School",
-      company: "SMA N 1 Kalirejo",
-      year: "2011",
       companyLink: "https://github.com/aulfik/#",
       desc: "",
     },
@@ -58,6 +51,14 @@ const userData = {
       companyLink: "https://github.com/aulfik/#",
       desc: "",
     },
+    {
+      title: "Hig School",
+      company: "SMA N 1 Kalirejo",
+      year: "2011",
+      companyLink: "https://github.com/aulfik/#",
+      desc: "",
+    },
+
   ],
   resumeUrl:
     "https://drive.google.com",

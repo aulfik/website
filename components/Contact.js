@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-5xl mx-auto px-4 mx-auto h-200 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-4xl md:text-6xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
       <div className="relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">

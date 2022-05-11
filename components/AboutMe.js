@@ -5,14 +5,14 @@ export default function AboutMe() {
   return (
     <section className="max-w-5xl  mx-auto px-4 bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-4xl md:text-6xl font-bold py-20 text-left md:text-left">
           About Me.
         </h1>
       </div>
       <div className="bg-[#ebebeb] -mt-10 dark:bg-gray-900">
-        <div className="text-container max-w-6xl mx-auto pt-20">
+        <div className="text-container max-w-6xl mx-auto">
           <p
-            className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+            className="leading-loose text-3xl md:text-4xl font-semibold  mx-4"
             style={{ lineHeight: "3rem" }}
           >
             {userData.about.title}. 
@@ -62,7 +62,7 @@ export default function AboutMe() {
             <div className="mt-4 ml-4">
               <div className="flex flex-row justify-start items-center ">
                 <a
-                  href={userData.socialLinks.facebook}
+                  href={userData.socialLinks.facebook} target="_blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -74,7 +74,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.twitter}
+                  href={userData.socialLinks.twitter} target="_blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -86,7 +86,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.github}
+                  href={userData.socialLinks.github} target="_blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -98,7 +98,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.linkedin}
+                  href={userData.socialLinks.linkedin} target="_blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -110,7 +110,7 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
-                  href={userData.socialLinks.twitter}
+                  href={userData.socialLinks.instagram} target="_blank"
                   className="flex flex-row items-center space-x-4 group"
                 >
                   <div className="my-4">&rarr;</div>
@@ -133,7 +133,7 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+            <h1 className="bg-gray-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
               Tech Stack
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
