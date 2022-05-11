@@ -15,7 +15,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="max-w-5xl  mx-auto px-4 py-10 md:py-15">
+    <div className="max-w-5xl mx-auto px-4 py-10">
       <div className="flex  md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
@@ -141,7 +141,7 @@ export default function Navbar() {
 
         <div className="space-x-4 flex flex-row items-center">
           <a
-            href={userData.socialLinks.instagram}
+            href={userData.socialLinks.instagram} target="_blank"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -156,7 +156,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href={userData.socialLinks.twitter}
+            href={userData.socialLinks.twitter} target="_blank"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -171,7 +171,7 @@ export default function Navbar() {
             </svg>
           </a>
           <a
-            href={userData.socialLinks.linkedin}
+            href={userData.socialLinks.linkedin} target="_blank"
             className="text-base font-normal text-gray-600 dark:text-gray-300"
           >
             <svg
@@ -219,7 +219,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className="space-x-8 block md:hidden mt-4">
+      <div className="space-x-8 flex md:hidden mt-4">
         <Link href="/about">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             About

@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Text container */}
      
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+      <div className="lg:block relative w-full md:w-1/2 -mr-40 mt-20">
         <div className="w-1/2 flex">
           <img src={userData.avatarUrl} alt="avatar" className="" />
           <div className="flex flex-row justify-between mt-1">
