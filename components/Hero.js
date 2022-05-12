@@ -13,7 +13,7 @@ export default function Hero() {
           <img src={userData.avatarUrl} alt="avatar" className="" />
           <div className="flex flex-row justify-between mt-1">
             <div className="flex flex-row space-x-4">
-              <p className="font-mono">Its's me</p>
+              <p className="font-mono">It's me</p>
             </div>
           </div>
         </div>

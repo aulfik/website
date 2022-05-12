@@ -88,7 +88,7 @@ export default function Navbar() {
           <Link href="/blog">
             <a
               className={`text-base  ${
-                router.asPath === "/experience"
+                router.asPath === "/blog"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
               }`}
@@ -230,9 +230,9 @@ export default function Navbar() {
             Projects
           </a>
         </Link>
-        <Link href="/experience">
+        <Link href="/blog">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Experience
+            Blog
           </a>
         </Link>
         <Link href="/contact">
