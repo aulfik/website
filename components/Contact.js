@@ -173,7 +173,7 @@ export default function Contact() {
             ></textarea>
             <button
               type="submit"
-              className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
+              className="bg-gray-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"
             >
               Send Message
             </button>
