@@ -11,7 +11,7 @@ export default function Blog() {
       </div>
       <div className="bg-[#ebebeb] dark:bg-gray-900">
         <div className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut ipsum nibh. Nullam tempus, sem quis blandit sollicitudin, nisl eros sollicitudin ligula, id maximus leo libero id justo. Vivamus tincidunt, lacus at porta laoreet, risus magna dictum tortor, eget interdum lectus diam tincidunt metus. Nam at libero libero. Sed tincidunt elit id sagittis auctor. Cras justo felis, accumsan in blandit eu, lacinia id dolor. Fusce non tellus sapien. In viverra commodo porttitor.
+        In the near future I will start writing about all.
         </div>
       </div>
     </section>

@@ -8,22 +8,21 @@ const userData = {
   address: "Indonesia.",
   projects: [
     {
-      title: "None",
-      link: "https://github.com/aulfik/#",
-      imgUrl: "/-.jpg",
+      title: "Personal Website",
+      link: "https://github.com/aulfik/website",
+      imgUrl: "/SCR-20220514-kcv.png",
     },
     {
-      title: "Portfolio",
-      link: "hhttps://github.com/aulfik/#",
-      imgUrl: "/-.png",
+      title: "Github Project Portfolio",
+      link: "hhttps://github.com/aulfik/",
+      imgUrl: "/SCR-20220514-kgj.png",
     },
   ],
   about: {
     title:
       "I'm a Bachelor Engineer, Data Scientist",
     description: [
-      'A human that always trying to learn something extraordinary,',
-      'something that could be useful for me and people around the world.',
+      'A human that always trying to learn something extraordinary, something that could be useful for me and people around the world.',
       'Passionate in programming, data, and learning. For me, learning is the most interesting thing in the world.',
     ],
     currentProject: "Open Source Developer",
@@ -61,7 +60,7 @@ const userData = {
 
   ],
   resumeUrl:
-    "https://drive.google.com",
+    "https://drive.google.com/file/d/1ECDbk4z7NVBx3SRCwti63s1F0YcB2RNp/view?usp=sharing",
   socialLinks: {
     instagram: "https://instagram.com/aul.fikri",
     twitter: "https://twitter.com/aul_fik",
