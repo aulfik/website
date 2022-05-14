@@ -13,7 +13,7 @@ export default function Footer() {
 
           <div className="space-x-4 flex flex-row items-center">
             <a
-              href={userData.socialLinks.instagram}
+              href={userData.socialLinks.instagram} target="_blank"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
@@ -28,7 +28,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href={userData.socialLinks.twitter}
+              href={userData.socialLinks.twitter} target="_blank"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
@@ -43,7 +43,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
-              href={userData.socialLinks.linkedin}
+              href={userData.socialLinks.linkedin} target="_blank"
               className="text-base font-normal text-gray-600 dark:text-gray-300"
             >
               <svg
