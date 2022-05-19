@@ -4,7 +4,7 @@ import userData from "@constants/data";
 export default function Contact() {
   return (
     <section>
-      <div className="max-w-5xl mx-auto px-4 mx-auto h-200 bg-white dark:bg-gray-800 antialiased">
+      <div className="max-w-5xl mx-auto px-4 h-200 bg-white dark:bg-gray-800 antialiased">
         <h1 className=" text-4xl md:text-6xl font-bold py-20 text-center md:text-left">
           Contact
         </h1>
@@ -15,7 +15,7 @@ export default function Contact() {
               <h1 className="text-gray-500 mt-4 dark:text-gray-300 font-semibold text-2xl">
                 Get in touch, let's talk.
               </h1>
-              <p className="font-light text-base text-gray-500 mt-4 dark:text-gray-300 mt-2">
+              <p className="font-light text-base text-gray-500 dark:text-gray-300 mt-2">
                 Fill in the details and I'll get back to you as soon as I can.
               </p>
             </header>
