@@ -14,8 +14,13 @@ const userData = {
     },
     {
       title: "Github Project Portfolio",
-      link: "hhttps://github.com/aulfik/",
+      link: "https://github.com/aulfik/",
       imgUrl: "/SCR-20220514-kgj.png",
+    },
+    {
+      title: "lcs License Generator (Golang)",
+      link: "https://github.com/aulfik/lcs",
+      imgUrl: "/SCR-20220519-trw.png",
     },
   ],
   about: {
