@@ -3,7 +3,7 @@ const userData = {
   name: "Aulia Fikri",
   designation: "Software Engineer | Data Science Enthusiast",
   avatarUrl: "/avatar.png",
-  email: "auautori@gmail.com",
+  email: "me@auliafikri.engineer",
   phone: "+628 2273531827",
   address: "Indonesia.",
   projects: [

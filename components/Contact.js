@@ -5,22 +5,22 @@ export default function Contact() {
   return (
     <section>
       <div className="max-w-5xl mx-auto px-4 h-200 bg-white dark:bg-gray-800 antialiased">
-        <h1 className=" text-4xl md:text-6xl font-bold py-20 text-center md:text-left">
+        <h1 className=" text-2xl md:text-4xl font-bold py-10 px-5 text-center md:text-left">
           Contact
         </h1>
-      <div className="relative z-10 rounded-md shadow-md bg-[#ebebeb] dark:bg-gray-900 p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4">
+      <div className="relative z-10 rounded-md shadow-md bg-[#ebebeb] -mt-4 dark:bg-gray-900 p-4 md:p-10 lg:p-5 max-w-5xl mx-auto mb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="md:ml-4">
             <header className="">
               <h1 className="text-gray-500 mt-4 dark:text-gray-300 font-semibold text-2xl">
-                Get in touch, let's talk.
+                Get in touch, and let's talk.
               </h1>
               <p className="font-light text-base text-gray-500 dark:text-gray-300 mt-2">
-                Fill in the details and I'll get back to you as soon as I can.
+                Fill in the details and I`ll get back to you as soon as possible.
               </p>
             </header>
-            <div className="icons-container inline-flex flex-col my-20">
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
+            <div className="icons-container inline-flex flex-col space-y-2 my-20">
+              <div className="bg-gray-300 flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -38,7 +38,7 @@ export default function Contact() {
                   {userData.phone}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
+              <div className="bg-gray-300 flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -53,7 +53,7 @@ export default function Contact() {
                   {userData.email}
                 </p>
               </div>
-              <div className="flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
+              <div className="bg-gray-300 flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-gray-500 p-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -148,7 +148,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 bg-gray-300 focus:ring-2 focus:border-none ring-blue-500"
               name="name"
             />
             <label htmlFor="email" className="text-sm text-gray-600 mx-4 mt-4">
@@ -156,7 +156,7 @@ export default function Contact() {
             </label>
             <input
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 bg-gray-300 focus:ring-2 focus:border-none ring-blue-500"
               name="email"
             />
             <label
@@ -168,7 +168,7 @@ export default function Contact() {
             <textarea
               rows="4"
               type="text"
-              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 focus:ring-2 focus:border-none ring-blue-500"
+              className="font-light rounded-md border focus:outline-none py-2 mt-2 px-1 mx-4 bg-gray-300 focus:ring-2 focus:border-none ring-blue-500"
               name="message"
             ></textarea>
             <button
