@@ -19,8 +19,8 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
-      <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
-        <div className="pt-10 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
+      <div className="bg-[#ebebeb] dark:bg-gray-900 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 py-10 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div>
