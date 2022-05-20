@@ -16,16 +16,16 @@ export default function Navbar() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
-      <div className="flex  md:flex-row justify-between items-center">
+      <div className="flex md:flex-row justify-between items-center">
         {/* Logo / Home / Text */}
 
         <div className="flex flex-col">
           <Link href="/">
             <a>
-              <h1 className="font-semibold text-xl dark:text-gray-100">
+              <h1 className="font-semibold text-base md:text-lg dark:text-gray-100">
                 {userData.name}
               </h1>
-              <p className="text-sm font-light text-gray-600 dark:text-gray-300">
+              <p className="text-xs md:text-sm font-light text-gray-600 dark:text-gray-300">
                 {userData.designation}
               </p>
             </a>
@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           <Link href="/about">
             <a
-              className={`text-base  ${
+              className={`text-base ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal "
