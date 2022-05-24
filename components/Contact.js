@@ -141,7 +141,8 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-gray-200 p-4 flex flex-col">
+          <a className="twitter-timeline" data-width="484" data-height="468" data-theme="light" href="https://twitter.com/VinoQoutes">Aulia Fikri Tweets</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          {/* <form className="form rounded-lg bg-gray-200 p-4 flex flex-col">
             <label htmlFor="name" className="text-sm text-gray-600 mx-4">
               {" "}
               Your Name
@@ -177,7 +178,7 @@ export default function Contact() {
             >
               Send Message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
       </div>
