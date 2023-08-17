@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@vercel/node": "^2.15.10",
     "axios": "^0.21.1",
     "next": "^12.2.0",
     "next-themes": "0.0.15",
